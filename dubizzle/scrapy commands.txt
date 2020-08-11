@@ -1,0 +1,4 @@
+scrapy startproject dubizzle                    //start a new project
+scrapy runspider quotes.py -o quote.json        //run spider to start crawling
+scrapy crawl quotes                             //This command runs the spider with name quotes that we’ve just added, that will send some requests for the quotes.toscrape.com
+scrapy shell 'web url'                          //access items in shell
